@@ -1,6 +1,6 @@
 export default function Web () {
     return (
-        <div>
+        <div class="block creatorjams">
             <h2>Web Page</h2>
         </div>
     )

@@ -9,9 +9,9 @@ import Navigation from './components/navigation';
 
 function App() {
   return (
-    <div>
+    <div class="App">
       <Navigation />
-      <Routes>
+      <Routes class="routes">
           <Route exact path ="/"  index element={<Home />}/>
           <Route path="/home" index element={<Home />}/>
           <Route path="/web" index element={<Web />} />
