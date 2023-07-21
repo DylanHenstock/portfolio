@@ -5,6 +5,19 @@
     --white: white;
   }
 
+h1 {
+    font-size: 5.5rem;
+    line-height: 0.7;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+}
+
 .container {
     margin-top: 146px;
     padding-left: 30px;
@@ -61,7 +74,7 @@
 .block {
     margin: auto;
     max-width: 100%;
-    height: 600px;
+    /* height: 600px; */
     border-radius: 25px;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -150,6 +163,98 @@
 .grid-left {
     border-radius: 25px;
     background-color: var(--white);
+}
+
+.rolesgrid {
+    margin: auto;
+    max-width: 80%;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 0.5em;
+    -ms-grid-rows: (1fr)[2];
+    grid-template-rows: repeat(2, 1fr);
+    -ms-grid-columns: (1fr)[4];
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-1 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 60em) {
+  .grid-1 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+}
+
+.grid-2 {
+    -ms-grid-column: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 60em) {
+  .grid-2 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 2;
+    grid-row: 2;
+  }
+}
+
+.grid-3 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 60em) {
+  .grid-3 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 3;
+    grid-row: 3;
+  }
+}
+
+.grid-4 {
+    -ms-grid-column: 3;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    -ms-grid-row: 2;
+    grid-row: 2;
+    border-radius: 25px;
+    background-color: var(--white);
+}
+
+@media screen and (max-width: 60em) {
+  .grid-4 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    -ms-grid-row: 4;
+    grid-row: 4;
+  }
 }
 
 /* GRID */
