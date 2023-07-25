@@ -1,5 +1,11 @@
 import creatorjamslogo from '../img/creatorjams.svg'
 import outfieldlogo from '../img/outfield.svg'
+import creatorjams1 from '../img/creatorjams1.jpg'
+import creatorjams2 from '../img/creatorjams2.jpg'
+import creatorjams3 from '../img/creatorjams3.jpg'
+import outfield1 from '../img/outfield1.jpg'
+import outfield2 from '../img/outfield2.jpg'
+import outfield3 from '../img/outfield3.jpg'
 
 export default function Product () {
     return (
@@ -7,7 +13,7 @@ export default function Product () {
 
             {/* Outfield */}
 
-           <div class="block outfield">
+            <div class="block outfield">
                  <img src={outfieldlogo} alt="Outfield Logo"/>
                 <h1>Outfield</h1>
                 <p class="subtitle">An Agritech Start up that uses <strong>Drones</strong> and <strong>AI</strong>
@@ -34,13 +40,134 @@ export default function Product () {
 
             <div class="grid">
                 <div class="grid-left">
-                    <h2>Overview 🏠</h2>
+                    <div class="paragraph">
+                        <h2>Overview 🏠</h2>
+                        <p>
+                        When I joined the company, farm maps and reports were delivered via email. The goal was to create an MVP for a Web App that allowed users to manage their farms and view maps & reports
+                        <br />
+                        <br />
+                        The company hired me & a full stack developer in order to take on this project
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>My Role 💼</h2>
+                        <p>
+                        I lead the design and testing of this project from end to end
+                        <br />
+                        <br />
+                        I collaborated with the Company Director during the earlier ideation stage and the Full Stack Developer throughout the entire project
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Problem 🚩</h2>
+                        <h3>Product Delivery</h3>
+                        <p>
+                        Deliverables were shared with customers through email and texts
+                        <br />
+                        <br />
+                        With the customer base growing, we needed to come up with a more scalable solution that could automate map & report delivery so that the operations team could have more time for R&D
+                        </p>
+                        <h3>Customer Skillset</h3>
+                        <p>
+                        The average Apple Farmer in the UK is 56 years old and the company directors were not convinced that they would take the transition from PDF to Web App well
+                        <br />
+                        <br />
+                        Farmers also mostly managed their orchards in Spreadsheets and we needed to find a way to make our app more user friendly than the spreadsheets that they had grown so accustomed to
+                        </p>
+                        <h3>Automated Flight Plans</h3>
+                        <p>
+                        Our Operations team was creating farm & orchard maps through a heavy manual process requiring multiple third party software's
+                        <br />
+                        <br />
+                        These maps informed our flight plans, which were also manually generated, and delivered via email to farmers
+                        <br />
+                        <br />
+                        These were inefficient and not scalable
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Goals ✅</h2>
+                        <h3>Develop a PDF delivery MVP</h3>
+                        <p>
+                        Instead of forcing our less technical customers to switch over to an app. The goal of our MVP was to deliver the same PDF reports to ease the users through the transition
+                        </p>
+                        <h3>Quick and Easy Onboarding</h3>
+                        <p>
+                        We wanted the process of creating farms & orchards to be intuitive and simple, using a 5 step onboarding process and taking in only the information needed for our ML team
+                        </p>
+                        <h3>One click flight plan generation</h3>
+                        <p>
+                        We wanted to create a User interface where farmers could select an orchard and generate the flight plan they needed with a single click
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Early Ideation & Reserach 🖍️</h2>
+                        <p>
+                        When beginning the project, we were still unsure of which device users would be using, and which features they cared about most.
+                        <br />
+                        <br />
+                        I created some  rough wireframes that we could show users and get feedback on
+                        <br />
+                        <br />
+                        Initial feedback was taken over text and in general conversation. We settled on making a desktop focused app that could be easily operated on a tablet while standing in an orchard
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>High Fidelity Designs 🎨</h2>
+                        <p>
+                        We had collected a ton of data on what features users wanted, and had decided on which features were a priority for the MVP
+                        <br />
+                        <br />
+                        I created these designs in Figma, with a fully prototyped user flow for future testing
+                        <br />
+                        <br />
+                        Once we had approval for the designs from the team and some feedback sessions with growers, we were ready to build!
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Development 👨‍💻</h2>
+                        <h3>Teamwork</h3>
+                        <p>
+                        I worked closely with our Full Stack Dev throughout the development of the Web App, ensuring that his designs matched my wireframes and changing the designs where needed
+                        </p>
+                        <h3>Agile Development</h3>
+                        <p>
+                        Some of the tools that we wanted to build fell outside of our developer’s skillset and required changes in order for the MVP to be ready in time for the next growing season
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Release & Improvements 🚀</h2>
+                        <p>
+                        Once the MVP had been completed, we released it to our users and held many feedback sessions to get an idea of what they liked and didn’t like about it
+                        <br />
+                        <br />
+                        Users asked for a Map View as apposed to our Table View, which we added as a later feature
+                        <br />
+                        <br />
+                        The impact of this release was high. Customers were very happy with the usability and simplicity of the Web App, the amount of flights they did went up drastically and the delivery of our maps and reports became easier than ever
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Further Development ⏱️</h2>
+                        <p>
+                        This Web App never stopped growing, I ended up designing features for Automated Tractor Spraying, Drone Obstacle Avoidance and Detailed Upload Management
+                        <br />
+                        <br />
+                        We are currently in the process of developing a companion mobile app allowing growers to utilize the phone’s GPS to expand functionality
+                        <br />
+                        <br />
+                        I would love to share more on this, but I’ve signed an NDA 😉
+                        </p>
+                    </div>
                 </div>
 
                 <div class="grid-right outfield">
-                    <h2>Image</h2>
+                    <img src={outfield1} alt="CreatorJams Home Page"/>
+                    <img src={outfield2} alt="CreatorJams Shop Page"/>
+                    <img src={outfield3} alt="CreatorJams Music Page"/>
                 </div>
             </div>
+
 
             {/* CreatorJams */}
 
@@ -71,11 +198,78 @@ export default function Product () {
 
             <div class="grid">
                 <div class="grid-left">
-                    <h2>Overview 🏠</h2>
+                    <div class="paragraph">
+                        <h2>Overview 🏠</h2>
+                        <p>
+                        I lead the <strong>design, development</strong> and <strong>testing</strong> of this project from end to end
+                        <br />
+                        <br />
+                        I collaborated with the Company Director & Head of Sales during the earlier <strong>ideation stage</strong> and the Marketing Executive <strong>throughout</strong> the entire project
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>My Role 💼</h2>
+                        <p>
+                        When I joined the company, they had a very <strong>simple website</strong> which I was tasked with re-designing
+                        <br />
+                        <br />
+                        The site did not have a <strong>unified style</strong>, did not clearly showcase the product and looked <strong>outdated</strong>
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Problem 🚩</h2>
+                        <h3>Customer Management</h3>
+                        <p>
+                        Most of the company’s existing users interacted through email and phone calls
+                        <br />
+                        <br />
+                        The client base was mostly local, and with the company expanding internationally, the website became a high priority as this would be the company’s primary leads generator
+                        </p>
+                        <h3>Customer Misconception</h3>
+                        <p>
+                        The premise of the company is that farmers buy their own off the shelf drones, and use Outfield to generate autonomous drone flight plans and to manage their orchards
+                        <br />
+                        <br />
+                        Growers often assumed that the company offered a service and not a software
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Goals ✅</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        Find a a clear way to describe the unique product that the company offers
+                        </p>
+                        <h3>Generate Leads</h3>
+                        <p>
+                        We wanted the website to convince farmers to send us an email to get started with a trial of the software
+                        </p>
+                        <h3>Knowledge Base</h3>
+                        <p>
+                        User Documentation that helps farmers answer questions or solve problems that may come up while flying their drones or using the Web App
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Development 👨‍💻</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        I built the site with Wordpress as the company wanted to be able to utilize it’s strong Blogging features
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Conclusion 🚀</h2>
+                        <p>
+                        Material Design is a design system built and supported by Google designers and developers. Material.io includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.
+                        <br />
+                        <br />
+                        The latest version, Material 3, enables personal, adaptive, and expressive experiences – from dynamic color and enhanced accessibility, to foundations for large screen layouts and design tokens.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="grid-right creatorjams">
-                    <h2>Image</h2>
+                    <img src={creatorjams1} alt="CreatorJams Home Page"/>
+                    <img src={creatorjams2} alt="CreatorJams Shop Page"/>
+                    <img src={creatorjams3} alt="CreatorJams Music Page"/>
                 </div>
             </div>
         </div>

@@ -170,6 +170,14 @@ h2 {
 .grid-left {
     border-radius: 25px;
     background-color: var(--white);
+    text-align: left;
+}
+
+.paragraph {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 170px;
+    margin-bottom: 170px;
 }
 
 .rolesgrid {

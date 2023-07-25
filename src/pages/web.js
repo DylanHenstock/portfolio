@@ -3,6 +3,9 @@ import outfieldlogo from '../img/outfield.svg'
 import creatorjams1 from '../img/creatorjams1.jpg'
 import creatorjams2 from '../img/creatorjams2.jpg'
 import creatorjams3 from '../img/creatorjams3.jpg'
+import outfield1 from '../img/outfield1.jpg'
+import outfield2 from '../img/outfield2.jpg'
+import outfield3 from '../img/outfield3.jpg'
 
 export default function Web () {
     return (
@@ -37,7 +40,72 @@ export default function Web () {
 
             <div class="grid">
                 <div class="grid-left">
-                    <h2>Overview 🏠</h2>
+                    <div class="paragraph">
+                        <h2>Overview 🏠</h2>
+                        <p>
+                        I lead the <strong>design, development</strong> and <strong>testing</strong> of this project from end to end
+                        <br />
+                        <br />
+                        I collaborated with the Company Director & Head of Sales during the earlier <strong>ideation stage</strong> and the Marketing Executive <strong>throughout</strong> the entire project
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>My Role 💼</h2>
+                        <p>
+                        When I joined the company, they had a very <strong>simple website</strong> which I was tasked with re-designing
+                        <br />
+                        <br />
+                        The site did not have a <strong>unified style</strong>, did not clearly showcase the product and looked <strong>outdated</strong>
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Problem 🚩</h2>
+                        <h3>Customer Management</h3>
+                        <p>
+                        Most of the company’s existing users interacted through email and phone calls
+                        <br />
+                        <br />
+                        The client base was mostly local, and with the company expanding internationally, the website became a high priority as this would be the company’s primary leads generator
+                        </p>
+                        <h3>Customer Misconception</h3>
+                        <p>
+                        The premise of the company is that farmers buy their own off the shelf drones, and use Outfield to generate autonomous drone flight plans and to manage their orchards
+                        <br />
+                        <br />
+                        Growers often assumed that the company offered a service and not a software
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Goals ✅</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        Find a a clear way to describe the unique product that the company offers
+                        </p>
+                        <h3>Generate Leads</h3>
+                        <p>
+                        We wanted the website to convince farmers to send us an email to get started with a trial of the software
+                        </p>
+                        <h3>Knowledge Base</h3>
+                        <p>
+                        User Documentation that helps farmers answer questions or solve problems that may come up while flying their drones or using the Web App
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Development 👨‍💻</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        I built the site with Wordpress as the company wanted to be able to utilize it’s strong Blogging features
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Conclusion 🚀</h2>
+                        <p>
+                        Material Design is a design system built and supported by Google designers and developers. Material.io includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.
+                        <br />
+                        <br />
+                        The latest version, Material 3, enables personal, adaptive, and expressive experiences – from dynamic color and enhanced accessibility, to foundations for large screen layouts and design tokens.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="grid-right creatorjams">
@@ -76,13 +144,84 @@ export default function Web () {
 
             <div class="grid">
                 <div class="grid-left">
-                    <h2>Overview 🏠</h2>
+                    <div class="paragraph">
+                        <h2>Overview 🏠</h2>
+                        <p>
+                        I lead the <strong>design, development</strong> and <strong>testing</strong> of this project from end to end
+                        <br />
+                        <br />
+                        I collaborated with the Company Director & Head of Sales during the earlier <strong>ideation stage</strong> and the Marketing Executive <strong>throughout</strong> the entire project
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>My Role 💼</h2>
+                        <p>
+                        When I joined the company, they had a very <strong>simple website</strong> which I was tasked with re-designing
+                        <br />
+                        <br />
+                        The site did not have a <strong>unified style</strong>, did not clearly showcase the product and looked <strong>outdated</strong>
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Problem 🚩</h2>
+                        <h3>Customer Management</h3>
+                        <p>
+                        Most of the company’s existing users interacted through email and phone calls
+                        <br />
+                        <br />
+                        The client base was mostly local, and with the company expanding internationally, the website became a high priority as this would be the company’s primary leads generator
+                        </p>
+                        <h3>Customer Misconception</h3>
+                        <p>
+                        The premise of the company is that farmers buy their own off the shelf drones, and use Outfield to generate autonomous drone flight plans and to manage their orchards
+                        <br />
+                        <br />
+                        Growers often assumed that the company offered a service and not a software
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Goals ✅</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        Find a a clear way to describe the unique product that the company offers
+                        </p>
+                        <h3>Generate Leads</h3>
+                        <p>
+                        We wanted the website to convince farmers to send us an email to get started with a trial of the software
+                        </p>
+                        <h3>Knowledge Base</h3>
+                        <p>
+                        User Documentation that helps farmers answer questions or solve problems that may come up while flying their drones or using the Web App
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Development 👨‍💻</h2>
+                        <h3>Communicate the product</h3>
+                        <p>
+                        I built the site with Wordpress as the company wanted to be able to utilize it’s strong Blogging features
+                        </p>
+                    </div>
+                    <div class="paragraph">
+                        <h2>Conclusion 🚀</h2>
+                        <p>
+                        Material Design is a design system built and supported by Google designers and developers. Material.io includes in-depth UX guidance and UI component implementations for Android, Flutter, and the Web.
+                        <br />
+                        <br />
+                        The latest version, Material 3, enables personal, adaptive, and expressive experiences – from dynamic color and enhanced accessibility, to foundations for large screen layouts and design tokens.
+                        </p>
+                    </div>
                 </div>
 
                 <div class="grid-right outfield">
-                   <h2>Images</h2>
+                    <img src={outfield1} alt="CreatorJams Home Page"/>
+                    <img src={outfield2} alt="CreatorJams Shop Page"/>
+                    <img src={outfield3} alt="CreatorJams Music Page"/>
                 </div>
             </div>
+
+            
+    
+       
 
         
         </div>
