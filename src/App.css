@@ -19,7 +19,7 @@ h2 {
 }
 
 .container {
-    margin-top: 146px;
+    /* margin-top: 146px; */
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -27,7 +27,7 @@ h2 {
 /* NAVIGATION */
 
 .nav {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     width: 100%;
     background-color: var(--light);
@@ -73,7 +73,7 @@ h2 {
 
 .block {
     margin: auto;
-    max-width: 100%;
+    max-width: 1800px;
     /* height: 600px; */
     border-radius: 25px;
     padding-top: 70px;
@@ -144,8 +144,8 @@ h2 {
 
 .grid {
     margin: auto;
-    max-width: 100%;
-    height: 600px;
+    max-width: 1800px;
+    /* height: 600px; */
     border-radius: 25px;
     margin-bottom: 20px;
 
@@ -158,6 +158,13 @@ h2 {
 
 .grid-right {
     border-radius: 25px;
+    padding-bottom: 30px;;
+}
+
+.grid-right img {
+    margin-top: 30px;
+    width: 90%;
+    border-radius: 25px;
 }
 
 .grid-left {
@@ -167,7 +174,7 @@ h2 {
 
 .rolesgrid {
     margin: auto;
-    max-width: 80%;
+    max-width: 65%;
     display: -ms-grid;
     display: grid;
     grid-gap: 0.5em;
