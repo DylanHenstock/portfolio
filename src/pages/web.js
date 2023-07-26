@@ -1,17 +1,11 @@
 import creatorjamslogo from '../img/creatorjams.svg'
 import outfieldlogo from '../img/outfield.svg'
-import creatorjams1 from '../img/creatorjams1.jpg'
-import creatorjams2 from '../img/creatorjams2.jpg'
-import creatorjams3 from '../img/creatorjams3.jpg'
-import outfield1 from '../img/outfield1.jpg'
-import outfield2 from '../img/outfield2.jpg'
-import outfield3 from '../img/outfield3.jpg'
 
 export default function Web () {
     return (
         <div class="container">
 
-            {/* CreatorJams */}
+        {/* CreatorJams */}
 
             <div class="block creatorjams">
                 <img src={creatorjamslogo} alt="CreatorJams Logo"/>
@@ -38,8 +32,10 @@ export default function Web () {
                 </div>
             </div>
 
+            {/* Block - Overview */}
+
             <div class="grid">
-                <div class="grid-left">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Overview 🏠</h2>
                         <p>
@@ -49,6 +45,19 @@ export default function Web () {
                         I collaborated with the Company Director & Head of Sales during the earlier <strong>ideation stage</strong> and the Marketing Executive <strong>throughout</strong> the entire project
                         </p>
                     </div>
+                </div>
+                <div class="grid-img creatorjams">
+
+                </div>
+            </div>
+
+            {/* Block - My Role */}
+
+            <div class="grid">
+                <div class="grid-img creatorjams">
+
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>My Role 💼</h2>
                         <p>
@@ -58,6 +67,13 @@ export default function Web () {
                         The site did not have a <strong>unified style</strong>, did not clearly showcase the product and looked <strong>outdated</strong>
                         </p>
                     </div>
+                </div>
+            </div>
+
+            {/* Block - Problem */}
+
+            <div class="grid">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Problem 🚩</h2>
                         <h3>Customer Management</h3>
@@ -75,6 +91,19 @@ export default function Web () {
                         Growers often assumed that the company offered a service and not a software
                         </p>
                     </div>
+                </div>
+                <div class="grid-img creatorjams">
+
+                </div>
+            </div>
+
+            {/* Block - Goals */}
+
+            <div class="grid">
+                <div class="grid-img creatorjams">
+
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Goals ✅</h2>
                         <h3>Communicate the product</h3>
@@ -90,6 +119,13 @@ export default function Web () {
                         User Documentation that helps farmers answer questions or solve problems that may come up while flying their drones or using the Web App
                         </p>
                     </div>
+                </div>
+            </div>
+
+            {/* Block - Development */}
+
+            <div class="grid">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Development 👨‍💻</h2>
                         <h3>Communicate the product</h3>
@@ -97,6 +133,19 @@ export default function Web () {
                         I built the site with Wordpress as the company wanted to be able to utilize it’s strong Blogging features
                         </p>
                     </div>
+                </div>
+                <div class="grid-img creatorjams">
+                    
+                </div>
+            </div>
+
+            {/* Block - Conclusion */}
+
+            <div class="grid">
+                <div class="grid-img creatorjams">
+                
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Conclusion 🚀</h2>
                         <p>
@@ -107,15 +156,9 @@ export default function Web () {
                         </p>
                     </div>
                 </div>
-
-                <div class="grid-right creatorjams">
-                    <img src={creatorjams1} alt="CreatorJams Home Page"/>
-                    <img src={creatorjams2} alt="CreatorJams Shop Page"/>
-                    <img src={creatorjams3} alt="CreatorJams Music Page"/>
-                </div>
             </div>
 
-           {/* Outfield */}
+        {/* Outfield */}
 
            <div class="block outfield">
                  <img src={outfieldlogo} alt="Outfield Logo"/>
@@ -142,8 +185,10 @@ export default function Web () {
                 </div>
             </div>
 
+            {/* Block - Overview */}
+
             <div class="grid">
-                <div class="grid-left">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Overview 🏠</h2>
                         <p>
@@ -153,6 +198,19 @@ export default function Web () {
                         I collaborated with the Company Director & Head of Sales during the earlier <strong>ideation stage</strong> and the Marketing Executive <strong>throughout</strong> the entire project
                         </p>
                     </div>
+                </div>
+                <div class="grid-img outfield">
+
+                </div>
+            </div>
+
+            {/* Block - My Role */}
+            
+            <div class="grid">
+                <div class="grid-img outfield">
+
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>My Role 💼</h2>
                         <p>
@@ -162,6 +220,13 @@ export default function Web () {
                         The site did not have a <strong>unified style</strong>, did not clearly showcase the product and looked <strong>outdated</strong>
                         </p>
                     </div>
+                </div>
+            </div>
+
+            {/* Block - Problem */}
+
+            <div class="grid">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Problem 🚩</h2>
                         <h3>Customer Management</h3>
@@ -179,6 +244,19 @@ export default function Web () {
                         Growers often assumed that the company offered a service and not a software
                         </p>
                     </div>
+                </div>
+                <div class="grid-img outfield">
+
+                </div>
+            </div>
+
+            {/* Block - Goals */}
+
+            <div class="grid">
+                <div class="grid-img outfield">
+
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Goals ✅</h2>
                         <h3>Communicate the product</h3>
@@ -194,6 +272,13 @@ export default function Web () {
                         User Documentation that helps farmers answer questions or solve problems that may come up while flying their drones or using the Web App
                         </p>
                     </div>
+                </div>
+            </div>
+
+            {/* Block - Development */}
+
+            <div class="grid">
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Development 👨‍💻</h2>
                         <h3>Communicate the product</h3>
@@ -201,6 +286,19 @@ export default function Web () {
                         I built the site with Wordpress as the company wanted to be able to utilize it’s strong Blogging features
                         </p>
                     </div>
+                </div>
+                <div class="grid-img outfield">
+                    
+                </div>
+            </div>
+
+            {/* Block - Conclusion */}
+
+            <div class="grid">
+                <div class="grid-img outfield">
+                
+                </div>
+                <div class="grid-white">
                     <div class="paragraph">
                         <h2>Conclusion 🚀</h2>
                         <p>
@@ -211,19 +309,9 @@ export default function Web () {
                         </p>
                     </div>
                 </div>
-
-                <div class="grid-right outfield">
-                    <img src={outfield1} alt="CreatorJams Home Page"/>
-                    <img src={outfield2} alt="CreatorJams Shop Page"/>
-                    <img src={outfield3} alt="CreatorJams Music Page"/>
-                </div>
             </div>
 
             
-    
-       
-
-        
         </div>
     )
 }
