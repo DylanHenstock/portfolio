@@ -3,7 +3,7 @@ export default function Home () {
         <div class="container">
             
             <div class="block home">
-                <h2>Home Page</h2>
+                <h1>Home Page</h1>
             </div>
 
         </div>

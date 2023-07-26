@@ -5,7 +5,7 @@ export default function Web () {
     return (
         <div class="container">
 
-        {/* CreatorJams */}
+{/* CreatorJams */}
 
             <div class="block creatorjams">
                 <img src={creatorjamslogo} alt="CreatorJams Logo"/>
@@ -158,7 +158,7 @@ export default function Web () {
                 </div>
             </div>
 
-        {/* Outfield */}
+{/* Outfield */}
 
            <div class="block outfield">
                  <img src={outfieldlogo} alt="Outfield Logo"/>
