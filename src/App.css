@@ -74,7 +74,6 @@ h2 {
 .block {
     margin: auto;
     max-width: 1800px;
-    /* height: 600px; */
     border-radius: 25px;
     padding-top: 70px;
     padding-bottom: 70px;
@@ -158,7 +157,6 @@ h2 {
 .grid {
     margin: auto;
     max-width: 1800px;
-    /* height: 600px; */
     border-radius: 25px;
     margin-bottom: 20px;
 
@@ -169,14 +167,6 @@ h2 {
 }
 
 .grid-img {
-    /* padding-top: 30px;
-    padding-bottom: 30px;
-    border-radius: 25px;
-
-    display: grid;
-    grid-row-gap: 30px;
-    place-items: center; */
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -186,10 +176,9 @@ h2 {
 
 .grid-img img {
     object-fit: cover;
-    flex-shrink:2;
+    flex-shrink:1;
     min-width: 100%;
     min-height: 100%;
-    border-radius: 25px;
 }
 
 .grid-white {
@@ -206,8 +195,6 @@ h2 {
 .paragraph {
     margin-right: 50px;
     margin-left: 50px;
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .rolesgrid {
