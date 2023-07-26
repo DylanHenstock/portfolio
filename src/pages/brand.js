@@ -56,8 +56,8 @@ export default function Brand () {
                 </p>
             </div>
 
-            <div class="logotitle">
-                <h1>More Logos</h1>
+            <div class="boxtitle subtitle">
+                <p>More Logos</p>
             </div>
 
             <div class="grid">

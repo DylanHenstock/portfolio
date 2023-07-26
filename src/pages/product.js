@@ -1,5 +1,9 @@
 import creatorjamslogo from '../img/creatorjams.svg'
 import outfieldlogo from '../img/outfield.svg'
+import outfield_app_goals from '../img/outfield_app_goals.png'
+import outfield_app_ideation from '../img/outfield_app_ideation.png'
+import outfield_app_overview from '../img/outfield_app_overview.png'
+import outfield_app_role from '../img/outfield_app_role.png'
 
 export default function Product () {
     return (
@@ -47,7 +51,7 @@ export default function Product () {
                     </div>
                 </div>
                 <div class="grid-img outfield">
-
+                    <img src={outfield_app_overview} alt=""/>
                 </div>
             </div>
 
@@ -55,7 +59,7 @@ export default function Product () {
             
             <div class="grid">
                 <div class="grid-img outfield">
-
+                    <img src={outfield_app_role} alt=""/>
                 </div>
                 <div class="grid-white">
                     <div class="paragraph">
@@ -111,7 +115,7 @@ export default function Product () {
 
             <div class="grid">
                 <div class="grid-img outfield">
-
+                    <img src={outfield_app_goals} alt=""/>
                 </div>
                 <div class="grid-white">
                     <div class="paragraph">
@@ -150,7 +154,7 @@ export default function Product () {
                     </div>
                 </div>
                 <div class="grid-img outfield">
-                    
+                    <img src={outfield_app_ideation} alt=""/>
                 </div>
             </div>
 
@@ -241,7 +245,7 @@ export default function Product () {
                 </div>
             </div>
 
-            {/* CreatorJams */}
+        {/* CreatorJams */}
 
             <div class="block creatorjams">
                 <img src={creatorjamslogo} alt="CreatorJams Logo"/>
