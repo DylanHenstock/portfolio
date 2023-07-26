@@ -169,18 +169,27 @@ h2 {
 }
 
 .grid-img {
-    padding-top: 30px;
+    /* padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 25px;
 
     display: grid;
     grid-row-gap: 30px;
-    place-items: center;
+    place-items: center; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 25px;
 }
 
 .grid-img img {
-    width: 90%;
-    display: none;
+    object-fit: cover;
+    flex-shrink:2;
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 25px;
 }
 
 .grid-white {

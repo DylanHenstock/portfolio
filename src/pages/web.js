@@ -1,5 +1,6 @@
 import creatorjamslogo from '../img/creatorjams.svg'
 import outfieldlogo from '../img/outfield.svg'
+import creatorjams_web_overview from '../img/creatorjams_web_overview.png'
 
 export default function Web () {
     return (
@@ -47,7 +48,7 @@ export default function Web () {
                     </div>
                 </div>
                 <div class="grid-img creatorjams">
-
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
             </div>
 
@@ -55,7 +56,7 @@ export default function Web () {
 
             <div class="grid">
                 <div class="grid-img creatorjams">
-
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
                 <div class="grid-white">
                     <div class="paragraph">
@@ -93,7 +94,7 @@ export default function Web () {
                     </div>
                 </div>
                 <div class="grid-img creatorjams">
-
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
             </div>
 
@@ -101,7 +102,7 @@ export default function Web () {
 
             <div class="grid">
                 <div class="grid-img creatorjams">
-
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
                 <div class="grid-white">
                     <div class="paragraph">
@@ -135,7 +136,7 @@ export default function Web () {
                     </div>
                 </div>
                 <div class="grid-img creatorjams">
-                    
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
             </div>
 
@@ -143,7 +144,7 @@ export default function Web () {
 
             <div class="grid">
                 <div class="grid-img creatorjams">
-                
+                    <img src={creatorjams_web_overview} alt=""/>
                 </div>
                 <div class="grid-white">
                     <div class="paragraph">
